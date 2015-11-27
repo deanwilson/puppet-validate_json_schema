@@ -40,18 +40,20 @@ describe 'validate_json_schema' do
 
   describe 'when called with invalid json' do
 
-    in_valid_json = {
-      "foo" => "bar",
-      "elements" => 2
-    }.to_json
+    in_valid_json = '{
+      "foo": "bar",
+      "elements": 2
+    }'
 
-    failing_schema = {
-      "type" => "object",
-      "required" => ["elements"],
-      "properties" => {
-        "elements"      => { "type" => "string" }
+    failing_schema = '{
+      "type": "object",
+      "required": ["elements"],
+      "properties": {
+        "elements": { 
+          "type": "string" 
+        }
       }
-    }.to_json
+    }'
 
     it 'should raise Puppet::ParseError' do
       expect { 
