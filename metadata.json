@@ -10,5 +10,22 @@
   "description": "Puppet function for validating json against a json schema.",
   "dependencies": [
   
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "RedHat"
+    },
+    {
+      "operatingsystem": "Ubuntu"
+    },
+    {
+      "operatingsystem": "Debian"
+    },
+    {
+      "operatingsystem": "Fedora"
+    },
+    {
+      "operatingsystem": "CentOS"
+    }
   ]
 }
