@@ -7,19 +7,23 @@ describe 'validate_json_schema' do
 
   describe 'when called with valid json' do
 
-    valid_json = {
-      "foo" => "bar",
-      "elements" => 2
-    }.to_json
+    valid_json = '{
+      "foo": "bar",
+      "elements": 2
+    }'
 
-    schema = {
-      "type" => "object",
-      "required" => ["elements", "foo"],
-      "properties" => {
-        "elements" => { "type" => "integer"},
-        "foo"      => { "type" => "string" }
+    schema = '{
+      "type": "object",
+      "required": ["elements", "foo"],
+      "properties": {
+        "elements": {
+          "type": "integer"
+        },
+        "foo": {
+          "type": "string"
+        }
       }
-    }.to_json
+    }'
 
     it 'should return true' do
       should run.with_params(valid_json, schema).and_return(true)
