@@ -1,6 +1,6 @@
 {
   "name": "deanwilson-validate_json_schema",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "deanwilson",
   "summary": "Puppet function for validating json against a json schema",
   "license": "Apache-2.0",
