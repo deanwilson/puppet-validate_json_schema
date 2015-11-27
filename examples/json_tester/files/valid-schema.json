@@ -1,0 +1,12 @@
+{
+  "type": "object",
+  "required": ["elements", "foo"],
+  "properties": {
+    "elements": {
+      "type": "integer"
+    },
+    "foo": {
+      "type": "string"
+    }
+  }
+}

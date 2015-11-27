@@ -1,0 +1,3 @@
+fixtures:
+  symlinks:
+    validate_json_schema: "#{source_dir}"
