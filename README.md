@@ -2,6 +2,11 @@
 
 A Puppet function to validate JSON against a [JSON schema](http://json-schema.org/)
 
+[![Build Status](https://travis-ci.org/deanwilson/puppet-validate_json_schema.svg?branch=master)](https://travis-ci.org/deanwilson/puppet-validate_json_schema
+)
+[![Puppet Forge](https://img.shields.io/puppetforge/v/deanwilson/validate_json_schema.svg)](https://forge.puppetlabs.com/deanwilson/validate_json_schema)
+)
+
 ## Introduction ##
 
 Sometimes ensuring that JSON is valid isn't enough. You could need to
