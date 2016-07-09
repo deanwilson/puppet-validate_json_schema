@@ -49,6 +49,11 @@ If you supply invalid json you'll see an error like this on your clients
     uppetlabs/code/environments/production/modules/json_tester/manifest-
     s/init.pp:6:6 on node puppettester.example.com
 
+## Installation
+
+You can install this module from [PuppetForge](https://forge.puppet.com/):
+
+    puppet module install deanwilson-validate_json_schema
 
 ### License ###
 
